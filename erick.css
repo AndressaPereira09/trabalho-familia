@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family= Glock & display=swap');
+
+
+* {
+    padding: 0;
+    margin: 10px;
+
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-aquarela-com-elementos-desenhados-a-mao_23-2148867455.jpg);
+    color: #0d0210;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+
+.mulheres {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    margin: 10px;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+header {
+    display: flex;
+    box-shadow: 0 0 2rem #000000;
+    height: 150px;
+    justify-content: space-between;
+    font-family: tahoma, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-dia-internacional-da-mulher-em-aquarela_23-2149258182.jpg);
+}
+
+ul {
+    display: flex;
+    margin: 63px;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 50px;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+footer {
+    box-shadow: 0 0 4rem #000000;
+    height: 70px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-family: 'Arimo', sans-serif;
+    background-color: rgb(245, 211, 245);
+    margin-top: 50px;
+}
+
+
+div p {
+    margin: 25px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+main {
+    font-size: 15px;
+}
+
+.sec {
+    text-align: center;
+}
+
+.tota {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+h3 {
+    margin-top: 10px;
+}
+
+
+.lool {
+    text-align: justify;
+    font-size: 20px;
+    align-items: center;
+    margin: auto;
+    border: solid rgb(240, 211, 240) 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 221, 247);
+    height: 600px;
+    width: 900px;
+    padding: 50px 20px 5px 20px;
+}
+
+sec {
+    margin-top: 10%;
+}
+
+.qqqq {
+    height: 300px;
+    width: 250px;
+    display: flex;
+    float: left;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin: 0 50px 30px 30px;
+
+
+
+}

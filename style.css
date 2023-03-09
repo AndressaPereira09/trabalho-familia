@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family= Glock & display=swap');
+
+
+* {
+    padding: 0;
+    margin: 10px;
+
+}
+
+.index {
+    background-image: url(fam/kk.png);
+    color: #0d0210;
+    font-family: 'Arimo', sans-serif;
+    background-size: cover
+}
+
+
+.mulheres {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    margin: 10px 60px;
+    transform-style: preserve-3d;
+    animation: rotate360 10s infinite forwards linear;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+header {
+    display: flex;
+    box-shadow: 0 0 2rem #000000;
+    height: 150px;
+    justify-content: space-between;
+    font-family: tahoma, sans-serif;
+}
+
+ul {
+    display: flex;
+    margin: 63px;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+li a:hover {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+
+}
+
+a:hover {
+    color: rgb(252, 59, 165);
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 50px;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 15px;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Arimo', sans-serif;
+    margin: 25px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+form p {
+    font-family: 'Arimo', sans-serif;
+    margin: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer {
+
+    box-shadow: 0 0 4rem #000000;
+    height: 70px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.text {
+    margin: 20px;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.tudo {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+img {
+    height: 200px;
+    max-width: 250px;
+
+}
+
+.elemento:hover {
+    transform: scale(1.1);
+}
+
+.elemento {
+    transition: transform .5s;
+}
+
+form {
+    background-position: center;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+form {
+    background-color: rgba(244, 160, 224, 0.7);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sec {
+    background-image: url(fam/parallax.png);
+}
+
+.sec {
+    width: 100%;
+    margin: 0 50px 0 0;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sec h1 {
+    text-align: center;
+    padding: 150px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.mom {
+    position: relative;
+    margin: auto;
+    width: 900px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.img2 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px 30px;
+    background-image: url(fam/Mae.jpeg);
+    background-size: cover;
+}
+
+.img1 {
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px 30px;
+    background-image: url(fam/vo.jpeg);
+}
+
+.a {
+    background-color: #ffaac6;
+}
+
+.kvn{
+    margin: auto;
+    text-align: center;
+}
+
+.container-kvn{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+    border: 10px solid pink;
+}
+
+.img-kvn{
+    width: 300px;
+    height: 250px;
+}
+
+.p-kvn{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fundo-kvn{
+    background-image: url(fam/mom-kvn2.jpeg);
+    background-size: 1145px;
+}
+
+
